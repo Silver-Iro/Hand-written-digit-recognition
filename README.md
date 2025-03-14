@@ -35,6 +35,6 @@ accuracy: 0.917
 ![Model 1 heatmap](results/Model1.png?raw=true)
 _______
 
-model 1 (10 -> 10 neurons)
+model 2 (100x10 -> 10 neurons)
 accuracy: 0.973
 ![Model 2 heatmap](results/Model2.png?raw=true)
