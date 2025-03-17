@@ -1,6 +1,7 @@
 ## Hand writing recognition neural network.
 
 **Summary**
+
 A sequential neural network to recognize hand written digits from MNIST dataset.
 Trained on over 60,000 greyscale samples.
 
@@ -16,6 +17,7 @@ Trained on over 60,000 greyscale samples.
  - matplotlib
 
 **Usage**
+
  1. To use this model, clone the repository and run the training   
     notebook.
  2. Format the image/s for prediction as 28x28 images reshaped in a
@@ -26,10 +28,12 @@ Trained on over 60,000 greyscale samples.
 
 
 **Methodology** 
+
 importing and processing of MNIST hand written digits dataset, building and training a sequential network with 10 outputs running sigmoid activation function, and finally testing the model in 10,000 samples to measure the accuracy.
 adding one more hidden layer to the model was able to achieve higher accuracy.
 
 **Further testing**
+
 a small set of external digits was hand written and added to [Test_images/](Test_images/) folder, the models was able to successfully identify that set as well.
 
 **Results**
